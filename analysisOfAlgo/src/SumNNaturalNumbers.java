@@ -1,12 +1,10 @@
-package analysisOfAlgo;
-
 import java.util.Scanner;
 
 public class SumNNaturalNumbers {
     public static void main(String []args){
         Scanner inputObj = new Scanner(System.in);
         System.out.println("Enter input");
-        int input = Integer.parseInt(inputObj.nextLine());
+        int input = Integer.parseInt(inputObj.nextLine());  
         System.out.println("Sum of N natural numbers using for loop : "+sumOfNNaturalNumbersUsingForLoop(input));
         System.out.println("Sum of N natural numbers using two for loop : "+sumOfNNaturalNumbersUsingTwoForLoop(input));
         System.out.println("Sum of N natural numbers using Formula : "+sumOfNNaturalNumbersUsingFormula(input));
