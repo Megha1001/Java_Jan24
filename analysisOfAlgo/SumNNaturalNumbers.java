@@ -23,7 +23,7 @@ public class SumNNaturalNumbers {
     public static int sumOfNNaturalNumbersUsingTwoForLoop(int input){
         int result = 0;
         for (int i=1; i<=input; i++){
-            for(int j = 1; i<=i; j++){
+            for(int j = 1; j<=i; j++){
                 result += j;
             }
         }
